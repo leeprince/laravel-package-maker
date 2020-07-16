@@ -1,0 +1,22 @@
+{
+    "name": "leeprince\/laravel-package-maker",
+    "description": "快速创建基于 laravel 组件包的工具",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "leeprince",
+            "email": "leeprince@foxmail.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^5.0.0",
+        "symfony/process": "^5.0.0",
+        "symfony/filesystem": "^5.0.0"
+    },
+    "bin": ["bin/laravel-package-maker"],
+    "autoload": {
+        "psr-4": {
+            "LeePrince\\LaravelPackageMaker\\": "src"
+        }
+    }
+}
