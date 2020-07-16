@@ -180,6 +180,7 @@ class BuildCommand extends Command
     {
         $folder = [
             '/Config/',
+            '/Route/',
             '/Console/Commands/',
             '/Database/migrations/',
             '/Facades/',
@@ -199,7 +200,7 @@ class BuildCommand extends Command
 
         $file = [
             '/Config/config.php' => 'Config/config.php',
-            '/Http/routes.php' => 'Http/routes.php',
+            '/Route/route.php' => 'Route/route.php',
         ];
 
         foreach ($file as $key => $value) {
