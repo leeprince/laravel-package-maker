@@ -146,6 +146,8 @@ class BuildCommand extends Command
         $this->setNamespace($config);
 
         $output->writeln(\sprintf('<info>Package %s created in: </info><comment>%s</comment>', $this->info['PACKAGE_NAME'], $directory));
+        
+        return 1;
     }
 
     /**
