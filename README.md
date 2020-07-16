@@ -19,7 +19,7 @@ $ composer global require leeprince/laravel-package-maker:dev-master
 # 命令目录
 
 ```shell
- $ laravel-package-Maker
+ $ laravel-package-maker
 ```
 
 ## 创建项目的命令
